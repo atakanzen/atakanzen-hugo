@@ -1,0 +1,19 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Atakan Zengin'
+theme = 'hyde'
+
+[permalinks]
+  posts = '/:year/:month/:title'
+
+[Menus]
+  main = [
+    {Name = "GitHub", URL = "https://github.com/atakanzen"},
+    {Name = "LinkedIn", URL = "https://linkedin.com/in/atakanzen"},
+    {Name = "Mastodon", URL = "https://hachyderm.io/@atakan"},
+  ]
+
+[params]
+  HeadDescription = "Atakan Zengin, Software Engineer"
+  description = "Software Engineer"
+  layoutReverse = true
